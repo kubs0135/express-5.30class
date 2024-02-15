@@ -3,7 +3,7 @@ const router=require("express").Router();
 router.get("/",(req,res,next)=>{
 
     try{
-        stst;
+       
         const{limit,page,search}=req.query; // used for search, sorting and filter
     //database operation
     res.json({msg:"Hello from blog route"});
